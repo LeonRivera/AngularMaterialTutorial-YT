@@ -11,10 +11,22 @@ mat-sidenav{
     width: 200px;
 }
 
-mat-grid-tile{
-    background-color: lightblue;
+
+mat-grid-tile-content{
+    justify-content: start !important;
+}
+/* [matInput]{
+    width: 100%;
+} */
+
+p>mat-form-field{
+    width: 100%;
 }
 
-[matInput]{
+.p-input{
     width: 100%;
+}
+
+.btn-guardar{
+    margin: 0;
 }

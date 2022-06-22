@@ -15,6 +15,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 
 import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
+import {MatSelectModule} from '@angular/material/select';
 
 
 const MaterialComponents = [
@@ -30,7 +31,8 @@ const MaterialComponents = [
   MatInputModule,
   MatGridListModule,
   MatFormFieldModule,
-  MatCardModule
+  MatCardModule,
+  MatSelectModule
 ]
 
 @NgModule({
